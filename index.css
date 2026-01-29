@@ -1,0 +1,46 @@
+html {
+    background-color: rgb(255, 240, 223);
+}
+
+/* FONTS */
+
+body {
+    font-size: 20px;
+}
+
+p {
+    background-color: rgb(248, 225, 225);
+    color: rgb(41, 40, 30);
+    /* border: solid 5px white; */
+    text-align: center;
+    margin: 25px;
+    padding: 50px;
+    border-radius: 50%;
+    font-family: "elza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(41, 40, 30);
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+li {
+    font-family: "elza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(255, 161, 191);
+}
+
+a {
+        text-decoration: none;
+        color: rgb(248, 225, 225);
+}

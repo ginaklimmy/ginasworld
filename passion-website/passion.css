@@ -22,11 +22,12 @@ p {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     color: rgb(41, 40, 30);
     font-family: "cooper-black-std", serif;
     font-weight: 400;
     font-style: italic;
+    text-align: center;
 }
 
 h2 {
@@ -41,13 +42,28 @@ h3 {
     font-weight: 400;
     font-style: normal;
     color: rgb(41, 40, 30);
-
 }
 
+ul {
+    font-family: "elza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(41, 40, 30);
+    font-size: 18px;
+}
 
+a {
+    color: rgb(255, 119, 232);
+}
 
-.special {
-    background-color: white;
-    color: brown;
-    border-radius: 30px;
+img {
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+.kitties {
+    width: 20%;
+    display: block;
+    margin: auto;
 }
