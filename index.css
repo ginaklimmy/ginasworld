@@ -2,7 +2,6 @@ html {
     background-color: rgb(255, 240, 223);
 }
 
-/* FONTS */
 
 body {
     font-size: 20px;
@@ -30,6 +29,13 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    font-family: "elza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(41, 40, 30);
+}
+
 li {
     font-family: "elza", sans-serif;
     font-weight: 400;
@@ -38,14 +44,10 @@ li {
     text-decoration: none;
     list-style-type: none;
     background-color: rgb(255, 161, 191);
-}
-
-
-h3 {
-    font-family: "elza", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(41, 40, 30);
+    border-radius: 15px;
+    padding: 6px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 ul {
@@ -57,19 +59,6 @@ ul {
 }
 
 a {
-    color: rgb(255, 119, 232);
+    color: rgb(10, 8, 9);
     text-decoration: none;
-
 }
-
-img {
-    width: 70%;
-    margin: auto;
-    display: block;
-}
-
-/* .catpic {
-    width: 20px;
-    display: block;
-    margin: auto;
-} */
