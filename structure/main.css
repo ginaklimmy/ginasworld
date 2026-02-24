@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "rafaella", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.passwords {
+    background-color: rgb(255, 248, 228);
+    width: 300px;
+    height: 300px;
+    /* padding: 20px; */
+    margin-top: 200px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+a {    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.shopping-list {
+    font-family: "xanti-typewriter-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    font-size: 20px;
+    opacity: 60%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    right: 200px;
+}
+
+.top-space {
+    height: 100px;
+}
+
+.scans {
+    background-color: aliceblue;
+    position: relative;
+    margin-top:300px;
+    margin-left: 10%;
+    opacity: 50%;
+}
+
+
+.scan1 {
+    width: 500px;
+    display: block;
+    position: absolute;
+    top: -500px;
+    left: 600px;
+    z-index: 2;
+
+}
+
+    .scan2 {
+    width: 400px;
+    position: absolute;
+    top: -400px;
+    left: 250px;
+    z-index: 2;
+}
+
+.passwords {
+    background-color: rgba(255, 100, 100, 0.67);
+    color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+}
+
+h2 {
+    margin-bottom: 0;
+    margin-left: 40px;
+
+}
+
+.random {
+    font-family: "felt-tip-senior", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: aqua;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.era {
+    position: absolute;
+    top: 800px;      
+    right: 1000px;   
+    padding: 6px 10px;
+    font-size: 20px;
+}
+
+.crispy {
+    position: absolute;
+    top: 380px;    
+    right: 200px;   
+    padding: 6px 10px;
+    font-size: 20px;
+}
+
+.smash {
+    position: absolute;
+    top: 300px; 
+    right: 1400px;
+    font-size: 25px;
+    width: 500px;
+}
+
+
+
+
+.dreams {
+    width: 700px;
+    height: 700px;
+
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+
+.beach-dream {
+    font-family: "felt-tip-senior", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    width: 350px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-top: 20px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.arcade-dream {
+    font-family: "felt-tip-senior", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    width: 300px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 12px;
+    padding-left: 12px;;
+
+
+    position: absolute;
+    top: 370px;
+    left: 0;
+
+}
+.kiwi-dream {
+    font-family: "felt-tip-senior", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 240px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;;
+
+    position: absolute;
+    top: 40px;
+    left: 15px;
+
+}
+.buzz-dream {
+    font-family: "felt-tip-senior", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 6px;
+
+    position: absolute;
+    bottom: 80px;
+    left: 350px;
+}
+
+.calendar {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 0;
+}
+
+.day {
+    font-family: "xanti-typewriter-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    font-size: 13px;
+
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    background-color: rgba(255, 249, 241, 0.427);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.info {
+    font-family: "xanti-typewriter-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    width: 100px;
+    height: 300px;
+    border: .25px solid white;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+
+    overflow-y: auto;
+    overflow-x: hidden;}
+
+.binding {
+    background-color: rgba(184, 184, 239, 0.619);
+    font-family: "xanti-typewriter-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    font-size: 13px;
+    padding: 20px;
+    width: 600px;
+    position: relative;
+    top: 500px;
+    left: 60px;
+    bottom: 100px;
+
+
+}
+
+.lemon-loaf {
+    background-color: rgba(235, 218, 197, 0.614);
+    font-family: "xanti-typewriter-variable", sans-serif;
+    font-variation-settings: "wght" 800;
+    font-size: 14px;
+
+    margin-bottom: 200px;
+    position: relative;
+    top: 430px;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 70%;
+    text-align: right;
+    align-items: flex-end;
+    z-index: -1;
+}
+
+
+
+
+

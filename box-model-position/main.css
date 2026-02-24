@@ -1,0 +1,78 @@
+
+
+/* 
+* {
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: rgb(108, 78, 41);
+}
+
+.content-box {
+    background-color: lightpink;
+    width: 200px;
+    height:200px;
+    padding: 20px;
+    border: 10px solid;
+    border-color: rgb(255, 255, 221);
+    margin: 20px;
+}
+
+.border-box {
+    background-color: lightpink;
+    width: 200px;
+    height:200px;
+    padding: 20px;
+    border: 10px solid;
+    border-color: rgb(255, 255, 221);
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+
+.box {
+    background-color:honeydew;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(36, 54, 36);
+    padding: 4px;
+    margin: 20px 0;          /* this means top and bottom = 20 px and left and right is 0px */ 
+    
+}
+
+.relative {
+    background-color: rgb(218, 218, 255);
+    position: relative;
+    top:50px;
+    left:50px;
+}
+
+.fixed {
+    background-color: rgb(199, 254, 199);
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin:0;
+}
+
+.container {
+    background-color: rgb(205, 250, 250);
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.absolute {
+    background-color: rgb(145, 227, 146);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin:0;
+}
+
+.sticky {
+    background-color: rgb(243, 204, 146);
+    position: sticky;
+    bottom: 0;
+}
