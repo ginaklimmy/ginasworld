@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "parabolica-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin:0;
+}
+
+.box {
+    background-color: beige;
+    width: 100%;
+    height:100%;
+    margin: 0;
+
+    /* animation-name: test;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate; */
+    /* animation: test 4s 2s infinite linear alternate both; */
+    /* in the animation short hand property ^^^^^ the first time valuecorrosponds with the duration, second time value corrosponds to the delay :)))) */
+}
+
+.container {
+    background-color: lavender;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circle {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+
+    animation: pulse 2s infinite alternate ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: rgb(242, 169, 255);
+        scale:1;
+    }
+    100% {
+        background-color: rgb(147, 210, 130);
+        scale:2;
+    }
+}
+
+.box {
+    background-color: rgb(255, 137, 137);
+    width: 200px;
+    height: 200px;
+
+    animation: spin 4s infinite linear;
+}
+
+
+@keyframes spin {
+    0% {
+    rotate: 0deg;
+    }
+    100% {
+    rotate: 360deg;
+    }
+}
+
+
