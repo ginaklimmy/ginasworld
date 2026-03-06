@@ -3,6 +3,14 @@ font-family: "parabolica-text", sans-serif;
 font-weight: 700;
 font-style: normal; */
 
+/* font-family: "swashington-jf", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* font-family: "elza-narrow", sans-serif;
+font-weight: 400;
+font-style: normal; */
+
 body {
     font-size: 20px;
     /* background-color: rgb(59, 55, 50); */
@@ -18,52 +26,60 @@ body {
     object-fit: cover;
 }
 
-p {
-    text-align: center;
-    margin: 25px;
-    padding: 50px;
-    border-radius: 50%;
-    font-family: "parabolica-text", sans-serif;
-    font-weight: 700;
+h1 {
+    font-size: 55px;
+    color: rgb(255, 253, 233);
+    font-family: "swashington-jf", sans-serif;
+    font-weight: 400;
     font-style: normal;
+     margin-top: 50px;
+    text-align: left;
 }
 
-h1 {
-    font-size: 20px;
+h2 {
+    font-size: 12px;
     color: rgb(255, 253, 233);
-    font-family: "parabolica-text", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: 180px;
-    text-align: center;
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    margin-top: 10px;
+    text-align: left;
+    text-decoration: underline;
 }
 
 li {
-    font-family: "elza", sans-serif;
+    font-family: "elza-narrow", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    text-align: center;
+    font-style: normal;    
+    text-align: left;
     text-decoration: none;
     list-style-type: none;
-    background-color: rgba(255, 253, 233, 0.691);
-    border-radius: 2px;
-    padding: 4px;
-    margin-left: 30%;
-    margin-right:30%;
 }
 
 ul {
-    font-family: "elza", sans-serif;
+    font-family: "elza-narrow", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    color: rgb(220, 159, 84);
-    font-size: 12px;
-    text-align: center;
+    font-style: normal;    font-size: 12px;
+    text-align: left;
     margin: 0;
     padding:0;
 }
 
 a {
-    color: rgb(10, 8, 9);
+    color: rgb(255, 253, 233);
     text-decoration: none;
+    font-family: "elza-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a:hover {
+    color: rgb(255, 239, 219);
+    text-decoration: underline;
+}
+.sections {
+    display: flex;
+}
+
+.exercises {
+    margin-left: 30px;
 }
