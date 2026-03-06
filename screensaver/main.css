@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "parabolica-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    margin:0;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50px);
+    gap: 1px;
+    width: 100%;
+}
+
+/*                      ZOOM ANIMATION            */
+.zoom {
+    animation: zoom 4s infinite alternate ease-in-out;
+}
+
+@keyframes zoom {
+    0% {
+        scale:0;
+    }
+    100% {
+        scale:1;
+    }
+}
+
+/*                    BOX 1                  */
+.one {
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+.box1 {
+    width: 50px;
+    height: 50px;
+
+    animation: box1 12s infinite ease-in-out alternate;
+}
+
+.box1.zoom {
+    animation: box1 12s infinite ease-in-out alternate,
+               zoom 3s infinite ease-in-out alternate;
+}
+
+@keyframes box1 {
+    0% {
+        background-color: rgb(255, 216, 232);
+    }
+    25% {
+        background-color: rgb(255, 196, 221);
+    }
+    50% {
+        background-color: rgb(108, 40, 61);
+    }
+    75% {
+        background-color: rgb(205, 84, 122);
+    }
+    100% {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+/*                    BOX 2                  */
+.two {
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+.box2 {
+    width: 50px;
+    height: 50px;
+    
+    animation: box2 12s 0s infinite ease-in-out alternate;
+}
+.box2.zoom {
+    animation: box2 12s infinite ease-in-out alternate,
+               zoom 8s infinite ease-in-out alternate;
+}
+
+@keyframes box2 {
+    0% {
+        background-color: rgb(255, 255, 255);
+    }
+    25% {
+        background-color: rgb(255, 196, 221);
+    }
+    50% {
+        background-color: rgb(169, 99, 121);
+    }
+    75% {
+        background-color: rgb(255, 228, 237);
+    }
+    100% {
+        background-color: rgb(178, 92, 119);
+    }
+}
+
+/*                    BOX 3                  */
+.three {
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+
+    animation: box3 6s 0s infinite ease-in-out alternate;
+}
+
+.box3.zoom {
+    animation: box3 6s infinite ease-in-out alternate,
+               zoom 6s infinite ease-in-out alternate;
+}
+
+@keyframes box3 {
+    0% {
+        background-color: rgb(169, 99, 121);
+    }
+    25% {
+        background-color: rgb(152, 78, 102);
+    }
+    50% {
+        background-color: rgb(255, 255, 255);
+    }
+    75% {
+        background-color: rgb(204, 127, 151);
+    }
+    100% {
+        background-color: rgb(255, 196, 221);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
