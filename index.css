@@ -27,17 +27,18 @@ body {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 70px;
     color: rgb(255, 253, 233);
     font-family: "swashington-jf", sans-serif;
     font-weight: 400;
     font-style: normal;
-     margin-top: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
     text-align: left;
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 20px;
     color: rgb(255, 253, 233);
     font-family: "elza-narrow", sans-serif;
     font-weight: 400;
@@ -59,7 +60,8 @@ li {
 ul {
     font-family: "elza-narrow", sans-serif;
     font-weight: 400;
-    font-style: normal;    font-size: 12px;
+    font-style: normal;    
+    font-size: 20px;
     text-align: left;
     margin: 0;
     padding:0;
@@ -72,12 +74,14 @@ a {
     font-weight: 400;
     font-style: normal;
 }
+
 a:hover {
     color: rgb(255, 239, 219);
     text-decoration: underline;
 }
 .sections {
     display: flex;
+    margin-left: 20px;
 }
 
 .exercises {
