@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(38, 126, 38);
+    font-family: monospace;
+    color: antiquewhite;
+}
