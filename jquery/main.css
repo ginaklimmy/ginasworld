@@ -3,7 +3,89 @@
 }
 
 body {
-    background: rgb(38, 126, 38);
     font-family: monospace;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+
+.main {
+    background: pink;
+}
+
+h1 {
+    margin-left:20px;
+
+}
+
+button {
+    font-family: monospace;
+    background-color: rgb(149, 208, 149);
+    padding: 5px;
+    border: 0;
+    font-size: 20px;
+
+}
+
+.buttons {
+    position: fixed;
+    top: 20px;
+    left: 500px;
+}
+
+.container {
+    background: rgb(149, 208, 149);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container.dark {
+    background: rgb(68, 106, 72);
+}
+
+.box {
+    background: rgb(123, 170, 123);
+    width: 100px;
+    height: 100px;    
+    animation: spin 4s infinite linear;
+    animation-play-state: paused;
+}
+
+.dark {
+    background: rgb(67, 126, 67);
+}
+
+.box.dark {
+    background: rgb(110, 175, 110);
+}
+
+.box.spin {
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    0% {
+        rotate:0;
+    }
+    100% {
+        rotate:360deg;
+    }
+}
+
+.pickles {
+    width:300px;
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    display: none;
+}
+
+.pickles.reveal {
+    display: block;
+}
+
+.draggable {
+    cursor:grab;
 }
