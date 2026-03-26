@@ -3,17 +3,272 @@
 }
 
 body {
-    background: black;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+}
+
+.bg-image {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+
+    object-fit: cover;
+    z-index: -1;
 }
 
 h1 {
-    font-size: 50px;
-    color: rgb(255, 253, 233);
-    font-family: "swashington-jf", sans-serif;
+    font-family: "tumb", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 50px;
-    margin-left: 20px;
-    text-align: left;
+    font-size: 90px;
+    color: rgb(255, 255, 0);
+    margin: 0;     
+    padding-bottom: 20px;
+    position: fixed; 
+    top: 0;        
+    left: 20px;    
 }
 
+
+
+.main {
+    background: pink;
+}
+
+h1 {
+    margin-left:20px;
+
+}
+
+button {
+    font-family: monospace;
+    background-color: rgb(149, 208, 149);
+    padding: 5px;
+    border: 0;
+    font-size: 20px;
+
+}
+.closet {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.box {
+    width: 200px;
+    object-fit: cover;  
+    position: absolute;  
+}
+.hat1 { 
+    top: 150px; 
+    left: 20px; 
+    width: 120px; 
+}
+.hat2 { 
+    top: 280px; 
+    left: 20px; 
+    width: 120px; 
+}
+.hat3 { 
+    top: 390px; 
+    left: 15px; 
+    width: 150px; 
+}
+.hat4 { 
+    top: 550px; 
+    left: 15px; 
+    width: 120px; 
+}
+.hat5 { 
+    top: 670px; 
+    left: 20px; 
+    width: 120px; 
+}
+.hat6 { 
+    top: 800px; 
+    left: 20px; 
+    width: 120px; 
+}
+
+.top {
+    top: 200px;
+    z-index: 12;
+}
+.top1 { 
+    top: 170px; 
+    left: 130px; 
+    width: 180px; 
+}
+.top2 { 
+    top: 180px; 
+    left: 210px; 
+    width: 200px; 
+}
+.top3 { 
+    top: 130px; 
+    left: 240px; 
+    width: 300px; 
+}
+.top4 { 
+    top: 180px; 
+    left: 380px; 
+    width: 210px; 
+}
+.top5 { 
+    top: 180px; 
+    left: 450px; 
+    width: 260px; 
+}
+.top6 { 
+    top: 140px; 
+    left: 530px; 
+    width: 220px; 
+}
+.top7 { 
+    top: 160px; 
+    left: 610px; 
+    width: 240px; 
+}
+.top8 { 
+    top: 170px; 
+    left: 670px; 
+    width: 260px; 
+}
+
+.bottom1 { 
+    top: 400px;  
+    left: 130px;  
+    width: 200px; 
+    z-index: 1;
+}
+.bottom2 { 
+    top: 400px; 
+    left: 130px; 
+    width: 330px;
+    z-index: 2;
+}
+.bottom3 { 
+    top: 400px; 
+    left: 210px; 
+    width: 350px;
+    z-index: 3;
+}
+.bottom4 { 
+    top: 420px; 
+    left: 290px; 
+    z-index: 4;
+    width: 310px;
+}
+.bottom5 { 
+    top: 390px; 
+    left: 410px; 
+    z-index: 5;
+    width: 190px;
+}
+.bottom6 { 
+    top: 400px; 
+    left: 490px; 
+    width: 200px;
+    z-index: 6;
+}
+.bottom7 { 
+    top: 410px; 
+    left: 580px; 
+    width: 170px;
+    z-index: 7;
+}
+.bottom8 { 
+    top: 380px; 
+    left: 660px; 
+    width: 220px;
+    z-index: 8;
+}
+.bottom9 { 
+    top: 400px; 
+    left: 760px; 
+    width: 180px;
+    z-index: 9;
+}
+
+.bag1 { 
+    top: 740px; 
+    left: 130px; 
+    width: 190px;
+}
+.bag2 { 
+    top: 740px; 
+    left: 290px; 
+    width: 190px;
+}
+.bag3 { 
+    top: 720px; 
+    left: 410px; 
+    width: 200px;
+}
+.bag4 { 
+    top:720px; 
+    left: 560px; 
+    width: 200px;
+}
+.bag5 { 
+    top: 740px; 
+    left: 730px; 
+    width: 170px;
+}
+.bag6 { 
+    top: 760px; 
+    left: 860px; 
+    width: 160px;
+}
+
+.shoe1 { 
+    top: 940px; 
+    left: 160px; 
+    width: 100px;
+}
+.shoe2 { 
+    top: 940px; 
+    left: 270px; 
+    width: 90px;
+}
+.shoe3 { 
+    top: 940px; 
+    left: 370px; 
+    width: 100px;
+}
+.shoe4 { 
+    top: 940px; 
+    left: 480px; 
+    width: 100px;
+}
+.shoe5 { 
+    top: 940px; 
+    left: 580px; 
+    width: 100px;
+}
+.shoe6 { 
+    top: 940px; 
+    left: 680px; 
+    width: 100px;
+}
+
+.draggable {
+    cursor:grab;
+}
+
+.fit-box {
+    position: fixed;
+    top: 150px;
+    right: 80px;
+    width: 500px;
+    height: 700px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.51);
+    z-index: -1;
+}

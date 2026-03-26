@@ -29,7 +29,8 @@ $(".reveal-btn").click(
 
 $(".draggable").draggable({
     containment:".container", 
-    scroll:false
+    scroll:false,
+    snap:true
 });
 
 
